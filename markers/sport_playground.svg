@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="580" height="580" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 580 580" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g display="none" id="layer3" transform="matrix(48.14969,0,0,48.14969,-536.27327,-33.306752)">
+   <rect display="inline" fill="none" height="10" id="rect4134" stroke="#757575" stroke-width="0.1" width="10" x="1" y="1"/>
+   <rect display="inline" fill="none" height="8" id="rect4136" stroke="#757575" stroke-width="0.1" width="8" x="2" y="2"/>
+  </g>
+  <circle cx="98.928" cy="285.783" fill="#7f003f" id="svg_1" r="57.534" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m429.705,443.527c-1.956,-2.607 -5.506,-3.115 -8.188,-1.304l-78.111,56.735c-2.608,1.957 -3.116,5.652 -1.305,8.188l10.58,14.71c1.956,2.607 5.65,3.115 8.188,1.304l78.111,-56.735c2.608,-1.957 3.115,-5.652 1.305,-8.188l-10.58,-14.71z" fill="#7f003f" id="svg_2" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <polygon fill="#7f003f" id="svg_3" points="285.945,326.578 316.958,381.212 333.262,369.039   302.25,314.694 " stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <polygon fill="#7f003f" id="svg_4" points="260.947,242.09 140.447,30.508 117.333,30.653   244.498,254.118 " stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m509.846,345.417l-111.95,-0.146c-8.913,0 -16.666,3.841 -23.477,8.768l-86.662,60.939l-59.562,-58.91l82.966,-60.721c12.898,-10.797 14.564,-29.999 3.841,-42.896c-10.941,-12.753 -29.999,-14.419 -42.896,-3.695l-129.558,92.241c-18.839,15.868 -22.245,51.663 -6.521,70.503l93.618,93.69c0,0 25.506,33.259 67.532,2.971l119.269,-84.198l93.4,0.146c21.81,0 39.346,-17.536 39.346,-39.346c-0.001,-21.665 -17.537,-39.346 -39.346,-39.346z" fill="#7f003f" id="svg_5" stroke="param(outline)" stroke-width="param(outline-width)"/>
+ </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="580" height="580" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 580 580" version="1.1" xml:space="preserve">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g display="none" id="layer3" transform="matrix(48.14969,0,0,48.14969,-536.27327,-33.306752)">
+   <rect display="inline" fill="#0000ff" height="10" id="rect4134" stroke="#757575" stroke-width="0.1" width="10" x="1" y="1"/>
+   <rect display="inline" fill="#0000ff" height="8" id="rect4136" stroke="#757575" stroke-width="0.1" width="8" x="2" y="2"/>
+  </g>
+  <g id="g3338" transform="matrix(1.3973279,-0.2437849,0.2437849,1.3973279,-185.07402,-56.183307)"/>
+  <circle cx="478.049" cy="87.691" fill="#0000ff" fill-opacity="param(fill-opacity)" id="svg_1" r="45.353" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m475.238,502.403l0,9.279c0,9.279 -8.888,8.365 -8.888,8.365l-117.171,0l0,17.056l123.707,0c23.656,-3.006 19.67,-34.7 19.67,-34.7l-17.318,0z" fill="#0000ff" fill-opacity="param(fill-opacity)" id="svg_2" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m151.952,512.663c-6.6,6.47 -12.155,-0.327 -12.155,-0.327l-82.929,-82.863l-11.959,12.155l87.373,87.438c18.821,14.573 38.491,-10.717 38.491,-10.717l-12.22,-12.286l-6.601,6.6z" fill="#0000ff" fill-opacity="param(fill-opacity)" id="svg_3" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m183.908,161.995l158.343,0.262l-66.722,66.396c-9.541,9.737 -14.377,20.716 -14.377,35.093c0,13.789 5.49,26.075 14.639,35.093l100.965,101.75l0.131,82.145c0,15.423 12.481,27.97 28.035,27.97c14.115,0 27.904,-16.337 27.904,-27.97l0,-114.298c0,-7.973 -3.333,-15.161 -8.691,-20.324l-67.049,-66.853l88.941,-88.941c16.729,-20.847 7.907,-45.875 7.907,-45.875c-9.28,-27.774 -40.713,-28.688 -40.713,-28.688l-229.313,-0.065c-12.22,0 -22.153,9.868 -22.153,22.154c0,12.284 9.933,22.151 22.153,22.151z" fill="#0000ff" fill-opacity="param(fill-opacity)" id="svg_4" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+  <path d="m255.793,304.589l-132.268,132.529c-9.999,8.038 -13.266,22.219 -7.254,34.048c6.862,13.527 23.526,18.886 37.054,11.959c1.83,-0.98 3.529,-2.092 5.097,-3.398l135.797,-135.993l-32.609,-32.479c-2.092,-2.026 -4.052,-4.248 -5.817,-6.666z" fill="#0000ff" fill-opacity="param(fill-opacity)" id="svg_5" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"/>
+ </g>
+</svg>
