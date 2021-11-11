@@ -75,7 +75,8 @@
         map.getPane('pane_osssss_0').style.zIndex = 400;
         map.getPane('pane_osssss_0').style['mix-blend-mode'] = 'normal';
         var layer_osssss_0 = new L.geoJson(json_osssss_0, {
-            attribution: '<a href=""></a>',
+            attribution: '',
+            interactive: false,
             pane: 'pane_osssss_0',
             onEachFeature: pop_osssss_0,
             style: style_osssss_0_0,
@@ -116,7 +117,8 @@
         map.getPane('pane_tergron_1').style.zIndex = 401;
         map.getPane('pane_tergron_1').style['mix-blend-mode'] = 'normal';
         var layer_tergron_1 = new L.geoJson(json_tergron_1, {
-            attribution: '<a href=""></a>',
+            attribution: '',
+            interactive: false,
             pane: 'pane_tergron_1',
             onEachFeature: pop_tergron_1,
             style: style_tergron_1_0,
@@ -148,7 +150,8 @@
         map.getPane('pane_oblast_2').style.zIndex = 402;
         map.getPane('pane_oblast_2').style['mix-blend-mode'] = 'normal';
         var layer_oblast_2 = new L.geoJson(json_oblast_2, {
-            attribution: '<a href=""></a>',
+            attribution: '',
+            interactive: false,
             pane: 'pane_oblast_2',
             onEachFeature: pop_oblast_2,
             style: style_oblast_2_0,
@@ -157,88 +160,80 @@
         map.addLayer(layer_oblast_2);
         function pop_fizcult_3(feature, layer) {
             var popupContent = '<table>\
-                    <tr>\
-                        <th scope="row">fid</th>\
-                        <td>' + (feature.properties['fid'] !== null ? Autolinker.link(String(feature.properties['fid'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">ID</th>\
-                        <td>' + (feature.properties['ID'] !== null ? Autolinker.link(String(feature.properties['ID'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Name</th>\
-                        <td>' + (feature.properties['Name'] !== null ? Autolinker.link(String(feature.properties['Name'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Region</th>\
-                        <td>' + (feature.properties['Region'] !== null ? Autolinker.link(String(feature.properties['Region'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Tergromad</th>\
-                        <td>' + (feature.properties['Tergromad'] !== null ? Autolinker.link(String(feature.properties['Tergromad'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Nasel_pun</th>\
-                        <td>' + (feature.properties['Nasel_pun'] !== null ? Autolinker.link(String(feature.properties['Nasel_pun'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Str_bud</th>\
-                        <td>' + (feature.properties['Str_bud'] !== null ? Autolinker.link(String(feature.properties['Str_bud'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Type</th>\
+			        <tr>\
+                        <th scope="row">Тип</th>\
                         <td>' + (feature.properties['Type'] !== null ? Autolinker.link(String(feature.properties['Type'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Web</th>\
+                        <th scope="row">Назва закладу</th>\
+                        <td>' + (feature.properties['Name'] !== null ? Autolinker.link(String(feature.properties['Name'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Назва області</th>\
+                        <td>' + (feature.properties['Region'] !== null ? Autolinker.link(String(feature.properties['Region'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Назва територіальної громади</th>\
+                        <td>' + (feature.properties['Tergromad'] !== null ? Autolinker.link(String(feature.properties['Tergromad'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Назва населеного пункту</th>\
+                        <td>' + (feature.properties['Nasel_pun'] !== null ? Autolinker.link(String(feature.properties['Nasel_pun'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Вулиця та номер будинку</th>\
+                        <td>' + (feature.properties['Str_bud'] !== null ? Autolinker.link(String(feature.properties['Str_bud'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Веб-сайт</th>\
                         <td>' + (feature.properties['Web'] !== null ? Autolinker.link(String(feature.properties['Web'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Grafik</th>\
+                        <th scope="row">Графік роботи</th>\
                         <td>' + (feature.properties['Grafik'] !== null ? Autolinker.link(String(feature.properties['Grafik'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Contacts</th>\
+                        <th scope="row">Контактна інформація</th>\
                         <td>' + (feature.properties['Contacts'] !== null ? Autolinker.link(String(feature.properties['Contacts'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">V_sp</th>\
+                        <th scope="row">Види спорту</th>\
                         <td>' + (feature.properties['V_sp'] !== null ? Autolinker.link(String(feature.properties['V_sp'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Balans</th>\
+                        <th scope="row">Балансоутримувач</th>\
                         <td>' + (feature.properties['Balans'] !== null ? Autolinker.link(String(feature.properties['Balans'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Sp_zl</th>\
+                        <th scope="row">Наявність власної спортивної зали</th>\
                         <td>' + (feature.properties['Sp_zl'] !== null ? Autolinker.link(String(feature.properties['Sp_zl'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">K_sc</th>\
+                        <th scope="row">Кількість секцій</th>\
                         <td>' + (feature.properties['K_sc'] !== null ? Autolinker.link(String(feature.properties['K_sc'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">K_tr</th>\
+                        <th scope="row">Кількість тренерів</th>\
                         <td>' + (feature.properties['K_tr'] !== null ? Autolinker.link(String(feature.properties['K_tr'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">K_vx</th>\
+                        <th scope="row">Кількість вихованців</th>\
                         <td>' + (feature.properties['K_vx'] !== null ? Autolinker.link(String(feature.properties['K_vx'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Poth</th>\
+                        <th scope="row">Розрахункова потужність(глядацьких місь)</th>\
                         <td>' + (feature.properties['Poth'] !== null ? Autolinker.link(String(feature.properties['Poth'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">MTD</th>\
+                        <th scope="row">Проекти</th>\
                         <td>' + (feature.properties['MTD'] !== null ? Autolinker.link(String(feature.properties['MTD'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Stan</th>\
+                        <th scope="row">Стан</th>\
                         <td>' + (feature.properties['Stan'] !== null ? Autolinker.link(String(feature.properties['Stan'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Prym</th>\
+                        <th scope="row">Примітка</th>\
                         <td>' + (feature.properties['Prym'] !== null ? Autolinker.link(String(feature.properties['Prym'])) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -410,7 +405,7 @@
         bounds_group.addLayer(layer_fizcult_3);
         map.addLayer(layer_fizcult_3);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'fizcult<br /><table><tr><td style="text-align: center;"><img src="legend/fizcult_3_0.png" /></td><td>Заклади «Спорт для всіх»</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_1.png" /></td><td>Заклади Інваспорт</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_2.png" /></td><td>Палаци Спорту</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_3.png" /></td><td>Дитячі юнацькі спортивні школи</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_4.png" /></td><td>Спортивні зали</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_5.png" /></td><td>Спортивні комплекси</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_6.png" /></td><td>Плавальні басейни</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_7.png" /></td><td>Футбольні поля</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_8.png" /></td><td>Стадіони</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_9.png" /></td><td>Льодові стадіони</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_10.png" /></td><td>Спортивні майданчики</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_11.png" /></td><td>Тири для стрільби</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_12.png" /></td><td>Молодіжні центри</td></tr></table>': layer_fizcult_3,'<img src="legend/oblast_2.png" /> oblast': layer_oblast_2,'<img src="legend/tergron_1.png" /> tergron': layer_tergron_1,'<img src="legend/osssss_0.png" /> osssss': layer_osssss_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'Фізична культура та спорт<br /><table><tr><td style="text-align: center;"><img src="legend/fizcult_3_0.png" /></td><td>Заклади «Спорт для всіх»</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_1.png" /></td><td>Заклади Інваспорт</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_2.png" /></td><td>Палаци Спорту</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_3.png" /></td><td>Дитячі юнацькі спортивні школи</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_4.png" /></td><td>Спортивні зали</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_5.png" /></td><td>Спортивні комплекси</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_6.png" /></td><td>Плавальні басейни</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_7.png" /></td><td>Футбольні поля</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_8.png" /></td><td>Стадіони</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_9.png" /></td><td>Льодові стадіони</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_10.png" /></td><td>Спортивні майданчики</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_11.png" /></td><td>Тири для стрільби</td></tr><tr><td style="text-align: center;"><img src="legend/fizcult_3_12.png" /></td><td>Молодіжні центри</td></tr></table>': layer_fizcult_3,'<img src="legend/oblast_2.png" /> Межі областей': layer_oblast_2,'<img src="legend/tergron_1.png" /> Межі тергромад': layer_tergron_1,'<img src="legend/osssss_0.png" /> Тимчасово окупована територія': layer_osssss_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
